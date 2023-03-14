@@ -12,7 +12,8 @@
     }
     .container-fluid {
       padding: 60px 50px;
-    }
+      padding-bottom: 0px;
+}
     .logo {
       color: #fc9936;
       font-size: 200px;
@@ -27,6 +28,7 @@
       color: #fc9936;
       font-size: 50px;
     }
+    
     .thumbnail {
       padding: 0 0 15px 0;
       border: none;
@@ -81,11 +83,13 @@ a {
 }
 
 .navbar.center {
-  display:inline-block;
+  display: block;
   float: none;
+  text-align: center!important;
 }
-#Homebar .active {
-  background-color: #fc9936;
+
+div ul button {
+  float: none;
 }
 @media screen and (min-width: 480px) {
   #Image1 {width: 1349px; height: auto;}
@@ -95,26 +99,24 @@ a {
   background-size:cover;
   background-repeat: no-repeat;
   height: 500px;
+  margin: 0px;
+  padding: 0px 0px;
 }
 h1 {
   margin-top: -10px;
   margin-bottom: 0px;
   font-size: 100px;
   color: black;
-  text-shadow: 1px 1px #ffffff;
   font-family: "Now-Font-Thin";
   letter-spacing: -10px;
 }
 p {
   color: black;
   font-size: 25px;
-  text-shadow: 1px 1px #ffffff;
   font-family: "Bubble";
 }
 .button {
   background-color: #ffffff;
-  height: 50px;
-  width: 100px;
   border: none;
   color: rgb(255, 255, 255);
   padding: 10px;
@@ -124,10 +126,19 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   margin-top: 50px;
+  font-family: "Bubble";
+  font-size: 25px;
 }
-
-.button1 {border-radius: 2px;}
-.button2 {border-radius: 4px;}
-.button3 {border-radius: 8px;}
-.button4 {border-radius: 12px;}
-.button5 {border-radius: 40%;}
+#RightNav {
+  float: right;
+  position: relative;
+  padding-right: 50px;
+}
+#LeftNav {
+  float: left;
+  position: relative;
+  padding-left: 50px;
+}
+#LeftNav .active {
+  border-bottom: 2px solid #fc9936;
+}

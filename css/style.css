@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Now-Font-Thin';
+  src: url(../Fonts/now.thin.otf);
+}
+@font-face {
+  font-family: 'Bubble';
+  src: url(../Fonts/BubbleboddyNeue-Light\ Trial.ttf);
+}
+   .jumbotron {
+      background-color: #fc9936;
+      color: #ffffff;
+    }
+    .container-fluid {
+      padding: 60px 50px;
+    }
+    .logo {
+      color: #fc9936;
+      font-size: 200px;
+    }
+    @media screen and (max-width:768px) {
+      .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+      }
+    }
+    .logo-small {
+      color: #fc9936;
+      font-size: 50px;
+    }
+    .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+    }
+    .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+    }
+    .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #fc9936;
+    }
+.carousel-indicators li {
+  border-color: #fc9936;
+}
+.carousel-indicators li.active {
+  background-color: #fc9936;
+}
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+.item span {
+  font-style: normal;
+}
+.Info-Box {
+  background-color: #5cb85c;
+  margin: 15px;
+}
+.well {
+  background-color: #5cb85c;
+}
+.btn-Orange {
+  color: white;
+  background-color: #fc9936;
+}
+a {
+  color: black;
+}
+#LogoFirst {
+  float: right;
+  max-width: 40%;
+  max-height: auto;
+}
+.navbar.center {
+  text-align: center;
+}
+
+.navbar.center {
+  display:inline-block;
+  float: none;
+}
+#Homebar .active {
+  background-color: #fc9936;
+}
+@media screen and (min-width: 480px) {
+  #Image1 {width: 1349px; height: auto;}
+}
+.Backimage {
+  background-image: url('../images/HeadImage2.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+h1 {
+  margin-top: -10px;
+  margin-bottom: 0px;
+  font-size: 100px;
+  color: black;
+  text-shadow: 1px 1px #ffffff;
+  font-family: "Now-Font-Thin";
+  letter-spacing: -10px;
+}
+p {
+  color: black;
+  font-size: 25px;
+  text-shadow: 1px 1px #ffffff;
+  font-family: "Bubble";
+}
+.button {
+  background-color: #ffffff;
+  height: 50px;
+  width: 100px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 50px;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 40%;}

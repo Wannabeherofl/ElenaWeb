@@ -1,0 +1,2 @@
+4 pages (about me, contact, Home, services)
+try ajax for lower half

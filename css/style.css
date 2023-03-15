@@ -6,6 +6,14 @@
   font-family: 'Bubble';
   src: url(../Fonts/BubbleboddyNeue-Light\ Trial.ttf);
 }
+.language-select {
+  float: right;
+  position: relative;
+  padding: 0px;
+}
+#LogoMain {
+  margin-bottom: 20px;
+}
    .jumbotron {
       background-color: #fc9936;
       color: #ffffff;
@@ -141,4 +149,7 @@ p {
 }
 #LeftNav .active {
   border-bottom: 2px solid #fc9936;
+}
+#RightNav .active {
+  border-bottom: 2px solid #5cb85c;
 }

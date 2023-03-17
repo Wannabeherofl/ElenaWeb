@@ -68,11 +68,11 @@
   font-style: normal;
 }
 .Info-Box {
-  background-color: #5cb85c;
+  background-color: #90FFB9;
   margin: 15px;
 }
 .well {
-  background-color: #5cb85c;
+  background-color: #90FFB9;
 }
 .btn-Orange {
   color: white;
@@ -151,5 +151,13 @@ p {
   border-bottom: 2px solid #fc9936;
 }
 #RightNav .active {
-  border-bottom: 2px solid #5cb85c;
+  border-bottom: 2px solid #90FFB9;
+}
+#What-I-Do {
+  background-color: #90FFB9;
+  width: 500px;
+  height: 70px;
+  position: absolute;
+  right: 250px;
+  z-index: -1;
 }
